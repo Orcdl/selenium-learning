@@ -27,7 +27,8 @@ public class LaunchBrower {
         chromeOptions.addArguments("--incognito");
 
         WebDriver driver = new ChromeDriver(chromeOptions);
-        driver.manage().window().maximize();
+//        driver.manage().window().maximize();
+        driver.get("http://learn.sdetpro.com");
 
         //DEBUG PURPOSE ONLY
         try{
