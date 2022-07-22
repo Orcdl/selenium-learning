@@ -19,11 +19,10 @@ public class LinkTestInteraction {
         By powerdByLinkTextElem = By.linkText("Elemental Selenium");
 
         // Find element
-        WebElement powerdByLinkTextElem = driver.findElement(powerdByLinkTextElem)
-
-
+        WebElement powerdByLinkTextEllem  = driver.findElement(powerdByLinkTextElem);
 
         //Interaction
+        powerdByLinkTextEllem.click();
 
         //Debug purpose only
         try{
