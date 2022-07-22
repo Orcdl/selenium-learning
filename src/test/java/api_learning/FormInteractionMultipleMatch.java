@@ -19,11 +19,12 @@ public class FormInteractionMultipleMatch {
         driver.get("https://the-internet.herokuapp.com/login");
 
         //Define selector value
-        By loginInputFeldSel = By.tagName("input");
+        By loginInputFeldSel = By.tagName("input"); // Or By.cssSelector("input");
 
-        //Interation
+
+        //Interaction
             List<WebElement> loginFormFieldElem = driver.findElements(loginInputFeldSel);
-            final int USENAME_INDEX = 0;
+            final int USENAME_INDEX = 0; // Declare object
             final int PASSWORD_INDEX = 1;
             loginFormFieldElem.get(USENAME_INDEX).sendKeys("teo@sthing.com");
             loginFormFieldElem.get(PASSWORD_INDEX).sendKeys("123456");
