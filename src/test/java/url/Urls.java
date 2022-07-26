@@ -8,6 +8,7 @@ public interface Urls {
     String hoverSlug = "/hovers";
     String JsAlertSlug = "/javascript_alerts";
     String LoginSlug = "/login";
+    String dynamicControl = "/dynamic_controls";
 
 
 
