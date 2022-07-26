@@ -23,7 +23,6 @@ public class MouseHoverAndNarrowDownSearching implements Urls {
 
         // Get a chrome session
         WebDriver driver = DriverFactory.getChromeDriver();
-        driver.findElement(By.className("alert"));
 
         try{
 
